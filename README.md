@@ -43,5 +43,14 @@ Mô tả:
 - Kết quả sẽ trả về một mảng giá trị của các feature, trong đó mỗi giá trị tương ứng với một feature trong tập dữ liệu. 
 Lưu ý rằng kết quả của tính năng quan trọng có thể khác nhau khi sử dụng các thuật toán khác nhau, và cũng có thể khác nhau khi sử dụng cùng một thuật toán nhưng với các tham số khác nhau.
 ### Triển khai mạng nơron nhân tạo ANN: [ANN](https://github.com/minhduc01168/ET_Tri_tue_nhan_tao/blob/master/BTL_AI_ANN_normalization.ipynb)
+Kết quả: **Accuracy= 0.91**
 ### Đánh giá hiệu năng: Cross-validation:K-fold
 ### Triển khai hệ thống: website 
+### Kết quả 
+**Accuracy**
+|                     | KNN | Decision Tree Classifier|Random Forest Classifier|SVM  |Naive Bayes|
+|---------------------|-----|-------------------------|------------------------|-----|-----------|
+|Initial              |0.87 | 0.84                    | 0.92                   |0.88 |0.81       |
+|SMOTE                |0.83 | 0.82                    | 0.89                   |0.79 |0.72       |
+|Hyperparameter tuning|0.87 | 0.84                    | 0.92                   |0.88 |0.81       |
+|Feature importance   |0.87 | 0.84                    | 0.92                   |     |           |
