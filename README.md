@@ -43,9 +43,15 @@ Mô tả:
 - Kết quả sẽ trả về một mảng giá trị của các feature, trong đó mỗi giá trị tương ứng với một feature trong tập dữ liệu. 
 Lưu ý rằng kết quả của tính năng quan trọng có thể khác nhau khi sử dụng các thuật toán khác nhau, và cũng có thể khác nhau khi sử dụng cùng một thuật toán nhưng với các tham số khác nhau.
 ### Triển khai mạng nơron nhân tạo ANN: [ANN](https://github.com/minhduc01168/ET_Tri_tue_nhan_tao/blob/master/BTL_AI_ANN_normalization.ipynb)
-Kết quả: **Accuracy= 0.91**
+Kết quả: **Accuracy= 0.927**
 ### Đánh giá hiệu năng: Cross-validation:K-fold
 ### Triển khai hệ thống: website 
+- Phát triển model
+- Chuyển đổi model sang định dạng tensroflowjs
+- Đưa lên website 
+Nguồn tham khảo: [tại đây](https://github.com/daved01/tensorflowjs-web-app-demo?fbclid=IwAR1BPwtxdQwvbKYFtf-_7JV8fvq0TFQ_R5U6z4sziA5YxAR5gl8nA5gx87w)
+- Deploy ứng dụng ReactJS lên Netlify hosting miễn phí. 
+Nguồn tham khảo: [tại đây](https://www.youtube.com/watch?v=R65aFh-Dstw)
 ### Kết quả 
 **Accuracy**
 |                     | KNN | Decision Tree Classifier|Random Forest Classifier|SVM  |Naive Bayes|
