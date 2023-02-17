@@ -47,11 +47,15 @@ Kết quả: **Accuracy= 0.927**
 ### Đánh giá hiệu năng: Cross-validation:K-fold
 ### Triển khai hệ thống: website 
 - Phát triển model
-- Chuyển đổi model sang định dạng tensroflowjs
+- Chuyển đổi model sang định dạng tensorflowjs
 - Đưa lên website 
+
 Nguồn tham khảo: [tại đây](https://github.com/daved01/tensorflowjs-web-app-demo?fbclid=IwAR1BPwtxdQwvbKYFtf-_7JV8fvq0TFQ_R5U6z4sziA5YxAR5gl8nA5gx87w)
 - Deploy ứng dụng ReactJS lên Netlify hosting miễn phí. 
+
 Nguồn tham khảo: [tại đây](https://www.youtube.com/watch?v=R65aFh-Dstw)
+
+Website demo: [React App](https://netlify-ml-app.netlify.app/?fbclid=IwAR0iS8wRH3HZYoKV6m_VK28bNy9qz656wSv99icDuObV5WshIrwI7jHdIZE) 
 ### Kết quả 
 **Accuracy**
 |                     | KNN | Decision Tree Classifier|Random Forest Classifier|SVM  |Naive Bayes|
